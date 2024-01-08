@@ -1,0 +1,73 @@
+.select-menu {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .select-menu .select-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 150px;
+    font-size: 16px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .select-menu .select-btn i {
+    margin-left: 5px;
+  }
+  
+  .select-menu .content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  
+  .select-menu .content .search {
+    padding: 5px 10px;
+  }
+  
+  .select-menu .content .search i {
+    margin-right: 5px;
+    color: #999;
+  }
+  
+  .select-menu .content .search input {
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .select-menu .content .options {
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 5px 0;
+  }
+  
+  .select-menu .content .options li {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .select-menu .content .options li:hover,
+  .select-menu .content .options li.selected {
+    background: #f2f2f2;
+  }
+  
+  .select-menu.active .content {
+    display: block;
+  }

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container1000{
+    width: 1000px!important;
+}
+p{
+    font-size: 12px;
+}
+
+.form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.bi{
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+  }
